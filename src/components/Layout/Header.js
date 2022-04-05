@@ -1,18 +1,18 @@
 import {Fragment} from "react";
-import ff from '../../assets/French_Fries.JPG'
-import meals from '../../assets/meals.jpg'
+import potato from '../../assets/o.jpg'
 import classes from './Header.module.css'
+import HeaderCartButton  from "./HeaderCartButton";
 
 const Header = props => {
     return(
         <Fragment>
             <header className = {classes.header}> 
                 <h1> Food order service</h1>
-                <button> Check cart</button>
+                <HeaderCartButton/>
             </header>
             //because it has dash we cannot use . notation
             <div className ={classes['main-image']}>
-                <img src= {ff} alt = "french fries"/>
+                <img src= {potato} alt = "french fries"/>
             </div>
         </Fragment>)
 };
