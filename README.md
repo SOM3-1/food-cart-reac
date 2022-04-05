@@ -1,2 +1,2 @@
-# food-cart-reac
+# food-cart-react
 Just a practice project
