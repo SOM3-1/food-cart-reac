@@ -4,11 +4,13 @@ import classes from './Header.module.css'
 import HeaderCartButton  from "./HeaderCartButton";
 
 const Header = props => {
+    
+  //pass down props.onShowShowCart prop from header to headercartbutton as onButtonClick
     return(
         <Fragment>
             <header className = {classes.header}> 
                 <h1> Food order service</h1>
-                <HeaderCartButton/>
+                <HeaderCartButton onButtonClick = {props.onShowCart}/>
             </header>
             //because it has dash we cannot use . notation
             <div className ={classes['main-image']}>
