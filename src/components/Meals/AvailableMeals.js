@@ -5,27 +5,45 @@ import MealItem from './MealItems/MealItem';
 const DUMMY_MEALS = [
     {
       id: 'm1',
-      name: 'Sushi',
-      description: 'Finest fish and veggies',
-      price: 22.99,
+      name: 'Margherita',
+      description: 'Classic delight with 100% real mozzarella cheese',
+      price: 239.0,
     },
     {
       id: 'm2',
-      name: 'Schnitzel',
-      description: 'A german specialty!',
-      price: 16.5,
+      name: 'Farmhouse',
+      description: 'Delightful combination of onion, capsicum, tomato & grilled mushroom',
+      price: 459.22,
     },
     {
       id: 'm3',
-      name: 'Barbecue Burger',
-      description: 'American, raw, meaty',
-      price: 12.99,
+      name: 'Pepper Barbecue Chicken',
+      description: 'Pepper barbecue chicken for that extra zing',
+      price: 449.99,
     },
     {
       id: 'm4',
-      name: 'Green Bowl',
-      description: 'Healthy...and green...',
-      price: 18.99,
+      name: 'Chicken Sausage',
+      description: 'American classic! Spicy, herbed chicken sausage on pizza',
+      price: 399.00,
+    },
+    {
+      id: 'm5',
+      name: 'The Unthinkable Pizza',
+      description: 'Don\'t think',
+      price: 549,
+    },
+    {
+      id: 'm6',
+      name: 'The 4 Cheese Pizza',
+      description: 'Cheese Overloaded pizza with 4 different varieties of cheese and 4 times the cheese of a normal pizza,.. ',
+      price: 639,
+    },
+    {
+      id: 'm7',
+      name: 'Indo Fusion Chicken Pizza',
+      description: 'Relish the fusion of 5 of your favorite chicken toppings - Peri Peri Chicken, Chicken Pepperoni, Chicken Tikka,..',
+      price: 420.69,
     },
   ];
 

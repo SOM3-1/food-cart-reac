@@ -1,5 +1,6 @@
 import {Fragment} from "react";
 import potato from '../../assets/o.jpg'
+import pizza from '../../assets/flat.jpg'
 import classes from './Header.module.css'
 import HeaderCartButton  from "./HeaderCartButton";
 
@@ -9,12 +10,12 @@ const Header = props => {
     return(
         <Fragment>
             <header className = {classes.header}> 
-                <h1> Food order service</h1>
+                <h1> Not Pizzzzaaaa Ordering Service</h1>
                 <HeaderCartButton onButtonClick = {props.onShowCart}/>
             </header>
             //because it has dash we cannot use . notation
             <div className ={classes['main-image']}>
-                <img src= {potato} alt = "french fries"/>
+                <img src= {pizza} alt = "french fries"/>
             </div>
         </Fragment>)
 };

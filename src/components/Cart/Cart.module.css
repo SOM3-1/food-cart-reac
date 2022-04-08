@@ -40,7 +40,8 @@
     color: #8a2b06;
   }
 
-  .actions .button---alt {
+  .actions .button---alt {    
+    background-color: #000000;
     color: #f30303;
   }
   
