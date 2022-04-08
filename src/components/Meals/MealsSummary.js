@@ -7,9 +7,6 @@ const MealsSummary = () => {
       <p>
         Choose your favorite pizza from our broad selection and enjoy a delicious lunch or dinner at home.
       </p>
-      <p>
-        LOL!! JK :p
-      </p>
     </section>
   );
 };

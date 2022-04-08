@@ -10,7 +10,7 @@ const Header = props => {
     return(
         <Fragment>
             <header className = {classes.header}> 
-                <h1> Not Pizzzzaaaa Ordering Service</h1>
+                <h1> Not Pizza!!!</h1>
                 <HeaderCartButton onButtonClick = {props.onShowCart}/>
             </header>
             //because it has dash we cannot use . notation

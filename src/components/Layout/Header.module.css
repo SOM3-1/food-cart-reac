@@ -1,3 +1,4 @@
+
 .header {
   position: fixed;
   top: 0;
@@ -11,7 +12,11 @@
   align-items: center;
   padding: 0 10%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  z-index: 10;
+  z-index: 10; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 .main-image {
@@ -22,8 +27,8 @@
 }
 
 .main-image img {
-  width: 110%;
-  height: 400%;
+  width: 140%;
+  height: 600%;
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
