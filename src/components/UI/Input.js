@@ -1,6 +1,7 @@
 import classes from './Input.module.css';
+import React from "react";
 
-export const Input = (props) => {
+export const Input = React.forwardRef((props, ref) => {
     
    //whatever vprops we get from mealItem we'll use the same here
     return(
@@ -8,9 +9,9 @@ export const Input = (props) => {
             <label htmlFor = {props.input.id}>
                 {props.label}
             </label>
-            <input {...props.input}/>
+            <input ref = {ref} {...props.input}/>
         </div>
 
     );
 
-};
+});
