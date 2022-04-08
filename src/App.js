@@ -4,6 +4,7 @@ import {useState} from "react";
 import { Cart } from './components/Cart/Cart';
 import { CartProvider } from './store/CartProvider';
 
+
 function App() {
 
   const [cartShown, setCartShown] = useState(false);
@@ -12,7 +13,7 @@ function App() {
     setCartShown(true);
   };
 
-  const hideCartHandler =() =>{
+const hideCartHandler = () =>{
     setCartShown(false);
 
   };
